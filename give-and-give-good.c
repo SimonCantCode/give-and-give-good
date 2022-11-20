@@ -118,7 +118,7 @@ int main() {
             // Display grid
             for(int i=0;i<yMax;i++) {
                 for(int j=0;j<xMax;j++) {
-                    if ((int)round(xt) + orginX >= 0 && (int)round(xt) + orginX <= xMax && (int)round(yt) + orginY >= 0 && (int)round(yt) + orginY <= yMax && i == yMax-((int)round(yt)+orginY)-1 && j == (int)round(xt)) {
+                    if ((int)round(xt) + orginX >= 0 && (int)round(xt) + orginX <= xMax && (int)round(yt) + orginY >= 0 && (int)round(yt) + orginY <= yMax && i == yMax-((int)round(yt)+orginY)-1 && j == (int)round(xt) + orginX) {
                         printf("o ");
                     } else {
                         printf("  ");
